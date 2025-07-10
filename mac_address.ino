@@ -1,7 +1,6 @@
 #include <WiFi.h>
 
 void setup() {
-  // Initialize Serial Monitor
   Serial.begin(115200);
 
   // Set the device to Wi-Fi station mode to initialize the hardware
