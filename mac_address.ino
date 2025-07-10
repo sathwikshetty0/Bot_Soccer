@@ -5,7 +5,6 @@ void setup() {
 
   WiFi.mode(WIFI_STA);
   
-  // Print the MAC address to the Serial Monitor
   Serial.println("Reading MAC address...");
   Serial.print("ESP32 MAC Address: ");
   Serial.println(WiFi.macAddress());
