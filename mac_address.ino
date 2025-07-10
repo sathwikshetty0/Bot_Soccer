@@ -3,7 +3,6 @@
 void setup() {
   Serial.begin(115200);
 
-  // Set the device to Wi-Fi station mode to initialize the hardware
   WiFi.mode(WIFI_STA);
   
   // Print the MAC address to the Serial Monitor
